@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/app/language/page.jsx"],"sourcesContent":["import React from \"react\";\n\nexport default function page() {\n  return <div>page</div>;\n}\n"],"names":[],"mappings":"qVAEe,SAAS,IACtB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,QACd,CAJA,EAAA,CAAA,CAAA"}

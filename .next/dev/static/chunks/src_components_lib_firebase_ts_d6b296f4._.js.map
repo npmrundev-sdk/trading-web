@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Volumes/SECONDARY/GitHub/trading-web/src/components/lib/firebase.ts"],"sourcesContent":["import { initializeApp, getApps, getApp } from \"firebase/app\";\n\nimport { getAuth } from \"firebase/auth\";\nimport { getFirestore } from \"firebase/firestore\";\nimport { getStorage } from \"firebase/storage\";\n\nconst firebaseConfig = {\n  apiKey: \"AIzaSyBRmL0YpBhcOo9Bo-vsUxCuP7sSTpO9l00\",\n  authDomain: \"ekhalo1.firebaseapp.com\",\n  projectId: \"ekhalo1\",\n  storageBucket: \"ekhalo1.firebasestorage.app\",\n  messagingSenderId: \"739878595165\",\n  appId: \"1:739878595165:web:5e683a36c35aa802de3bb4\"\n};\n\nconst app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);\n\nexport const auth = getAuth(app);\n\nexport const db = getFirestore(app);\n\nexport const storage = getStorage(app);\n\nexport default app;\n"],"names":[],"mappings":";;;;;;;;;;AAAA;AAAA;AAEA;AAAA;AACA;AAAA;AACA;AAAA;;;;;AAEA,MAAM,iBAAiB;IACrB,QAAQ;IACR,YAAY;IACZ,WAAW;IACX,eAAe;IACf,mBAAmB;IACnB,OAAO;AACT;AAEA,MAAM,MAAM,IAAA,6OAAO,IAAG,MAAM,GAAG,IAAI,IAAA,4OAAM,MAAK,IAAA,mPAAa,EAAC;AAErD,MAAM,OAAO,IAAA,4QAAO,EAAC;AAErB,MAAM,KAAK,IAAA,2RAAY,EAAC;AAExB,MAAM,UAAU,IAAA,qRAAU,EAAC;uCAEnB"}}]
+}

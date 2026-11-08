@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/sport/layout,_N_T_/sport/page,_N_T_/sport"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/sport/__PAGE__",
+    "/sport",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/health": {},
+    "/api/price": {},
+    "/api/price/history": {},
+    "/api/trade/place": {},
+    "/api/trade/settle": {}
+  }
+}

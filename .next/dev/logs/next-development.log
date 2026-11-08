@@ -1,0 +1,3536 @@
+[00:00:05.095] Server  WARN    ⚠ "Found lockfile missing swc dependencies," "patching..."
+[00:00:06.634] Server  LOG     ✓ Ready in 6.1s
+[00:00:09.653] Server  LOG     ○ Compiling / ...
+[00:00:11.241] Server  WARN    ⚠ Lockfile was successfully patched, please run "npm install" to ensure @next/swc dependencies are downloaded
+[00:00:20.203] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:25.248] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19961:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18914:36)\n    at http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18931:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18943:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19995:338)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_components_modals_a0394b45._.js:8830:336)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:00:28.130] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:28.328] Server  LOG     ○ Compiling /_not-found/page ...
+[00:00:33.832] Server  LOG     ✓ Finished writing to filesystem cache in 11.1s
+[00:01:16.052] Server  LOG     ✓ Compiled in 0ms
+[00:01:45.616] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:46.624] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19961:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18914:36)\n    at http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18931:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18943:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19995:338)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_components_modals_a0394b45._.js:8830:336)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:01:47.418] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:03.014] Server  LOG     ✓ Finished filesystem cache database compaction in 13.2s
+[00:02:04.482] Server  LOG     ○ Compiling /trade ...
+[00:02:29.216] Server  LOG     ✓ Finished writing to filesystem cache in 11.7s
+[00:03:33.303] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.305] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.319] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.320] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.321] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.325] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.344] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.354] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.431] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.482] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.496] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.505] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.517] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.517] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.520] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.547] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.572] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.577] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.645] Browser ERROR   ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:33.768] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:33.786] Server  LOG     ✓ Compiled in 2ms
+[00:03:33.899] Browser ERROR   ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:36.772] Browser ERROR   ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:36.785] Server  LOG     ○ Compiling /_error ...
+[00:03:37.362] Browser ERROR   ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:39.254] Browser ERROR   ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:39.336] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:39.356] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:39.418] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:39.682] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:39.699] Server  ERROR   ⨯ ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:40.186] Browser ERROR   uncaughtError: Error: ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:03:40.318] Browser ERROR   ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.423] Browser ERROR   ./src/app/page.js:8:1
+Module not found: Can't resolve './hgzy-game/HgzyGame'
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+   7 | import { GameSection } from "@/components/pages/home/GameSection";
+>  8 | import HgzyGame from "./hgzy-game/HgzyGame";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import SportGame from "./sport/SportGame";
+  10 | import HotPage from "./hot/HotPage";
+  11 | import Notice from "@/components/cards/Notice";
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:57.238] Server  LOG     ✓ Compiled in 435ms
+[00:04:03.014] Server  LOG     ✓ Finished filesystem cache database compaction in 13.7s
+[00:04:03.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:04.498] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19961:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18914:36)\n    at http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18931:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18943:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19995:338)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_components_modals_a0394b45._.js:8830:336)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:04:04.960] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:55.409] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.482] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.484] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.490] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.491] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.493] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.502] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.505] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.717] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.718] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.733] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.742] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.744] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.750] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.755] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.758] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.764] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.774] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.778] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.783] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.791] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.797] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.799] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.812] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.827] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.831] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.835] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.844] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.850] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.853] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.862] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.867] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.876] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.880] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.884] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.892] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.898] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.902] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.914] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.915] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.917] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.927] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.933] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.935] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.937] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.938] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.947] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.950] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.959] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.961] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.962] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.973] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.974] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.975] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.975] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:55.978] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.009] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.219] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.234] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.235] Server  ERROR   ⨯ ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.247] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.251] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.255] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.268] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:56.282] Server  LOG     ✓ Compiled in 2.1s
+[00:04:56.453] Browser ERROR   ./src/app/hot/HotPage.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | import Link from "next/link";
+  7 |
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/HotPage.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/HotPage.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:56.455] Browser ERROR   ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:28.778] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.788] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.797] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.798] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.897] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.902] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.916] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.917] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.927] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.934] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.967] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.981] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:28.999] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.030] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.031] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.033] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.045] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.053] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.055] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.067] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.083] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.094] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.143] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.146] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.151] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.153] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.155] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.165] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.171] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.179] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.218] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.219] Server  ERROR   ⨯ ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:29.236] Server  LOG     ✓ Compiled in 1462ms
+[00:05:29.348] Browser ERROR   ./src/components/pages/home/GameSection.jsx:1:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+> 1 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export const GameSection = ({ title, games }) => {
+  4 |   if (!games?.length) return null;
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/components/pages/home/GameSection.jsx [Client Component Browser]
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/components/pages/home/GameSection.jsx [Client Component SSR]
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:58.812] Server  LOG     ✓ Compiled in 261ms
+[00:05:58.914] Browser ERROR   ./src/app/page.js:7:1
+Export GameSection doesn't exist in target module
+   5 | import { BigBanner } from "@/components/cards/BigBanner";
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+>  7 | import { GameSection } from "@/components/pages/home/GameSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import SportGame from "./sport/SportGame";
+   9 | import HotPage from "./hot/HotPage";
+  10 | import Notice from "@/components/cards/Notice";
+
+The export GameSection was not found in module [project]/src/components/pages/home/GameSection.jsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:05:58.914] Browser ERROR   ./src/app/page.js:7:1
+Export GameSection doesn't exist in target module
+   5 | import { BigBanner } from "@/components/cards/BigBanner";
+   6 | import { FloatingControls } from "@/components/shared/FloatingControls";
+>  7 | import { GameSection } from "@/components/pages/home/GameSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import SportGame from "./sport/SportGame";
+   9 | import HotPage from "./hot/HotPage";
+  10 | import Notice from "@/components/cards/Notice";
+
+The export GameSection was not found in module [project]/src/components/pages/home/GameSection.jsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+[00:06:21.366] Server  LOG     ✓ Finished filesystem cache database compaction in 20.3s
+[00:07:04.286] Server  LOG     ✓ Compiled in 871ms
+[00:07:14.730] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:16.399] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19961:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18914:36)\n    at http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18931:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18943:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19995:338)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_components_modals_a0394b45._.js:8830:336)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:07:16.611] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:21.982] Server  LOG     ○ Compiling /hot ...
+[00:07:27.596] Server  ERROR   ⨯ ./src/app/hot/page.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { PageContainer } from "@/components/shared/PageContainer";
+  6 |
+  7 | // Static images
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/page.jsx [Client Component Browser]
+    ./src/app/hot/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:27.616] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:07:27.715] Browser ERROR   ./src/app/hot/page.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { PageContainer } from "@/components/shared/PageContainer";
+  6 |
+  7 | // Static images
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/page.jsx [Client Component Browser]
+    ./src/app/hot/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:27.834] Server  ERROR   ⨯ ./src/app/hot/page.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { PageContainer } from "@/components/shared/PageContainer";
+  6 |
+  7 | // Static images
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/page.jsx [Client Component Browser]
+    ./src/app/hot/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:27.836] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:07:28.304] Server  WARN    ⚠ ./src/assets/Juega Magic Ace WILD LOCK.avif
+AVIF image not supported
+This version of Turbopack does not support AVIF images, will emit without optimization or encoding
+
+Import trace:
+  Client Component SSR:
+    ./src/assets/Juega Magic Ace WILD LOCK.avif
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+
+[00:07:28.324] Browser ERROR   uncaughtError: Error: ./src/app/hot/page.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { PageContainer } from "@/components/shared/PageContainer";
+  6 |
+  7 | // Static images
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/page.jsx [Client Component Browser]
+    ./src/app/hot/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:28.529] Browser ERROR   ./src/app/hot/page.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { PageContainer } from "@/components/shared/PageContainer";
+  6 |
+  7 | // Static images
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/page.jsx [Client Component Browser]
+    ./src/app/hot/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:28.529] Browser ERROR   ./src/app/hot/page.jsx:4:1
+Module not found: Can't resolve '@/components/cards/GameCard'
+  2 |
+  3 | import { useSelector } from "react-redux";
+> 4 | import { GameCard } from "@/components/cards/GameCard";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { PageContainer } from "@/components/shared/PageContainer";
+  6 |
+  7 | // Static images
+
+Import map: aliased to relative './src/components/cards/GameCard' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/hot/page.jsx [Client Component Browser]
+    ./src/app/hot/page.jsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/hot/page.jsx [Client Component SSR]
+    ./src/app/hot/page.jsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:40.761] Server  LOG     ✓ Finished writing to filesystem cache in 10.4s
+[00:08:00.920] Server  LOG     ✓ Compiled in 877ms
+[00:08:04.601] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:06.736] Browser WARN    Selector LiveChatWidget.useSelector[messages] returned a different result when called with the same parameters. This can lead to unnecessary rerenders.
+Selectors that return a new reference (such as an object or an array) should be memoized: https://redux.js.org/usage/deriving-data-selectors#optimizing-selectors-with-memoization {"selected":[],"selected2":[],"stack":"Error\n    at LiveChatWidget.useSelector[messages] (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19961:39)\n    at memoizedSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18914:36)\n    at http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18931:28\n    at mountSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4962:28)\n    at Object.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:15052:20)\n    at exports.useSyncExternalStore (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:1757:36)\n    at exports.useSyncExternalStoreWithSelector (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:18943:21)\n    at useSelector2 (http://localhost:3000/_next/static/chunks/node_modules__pnpm_d15a83cf._.js:19995:338)\n    at LiveChatWidget (http://localhost:3000/_next/static/chunks/src_components_modals_a0394b45._.js:8830:336)\n    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:14826:24)\n    at renderWithHooks (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:4651:24)\n    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6112:21)\n    at beginWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:6708:24)\n    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:965:74)\n    at performUnitOfWork (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9562:97)\n    at workLoopSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9456:40)\n    at renderRootSync (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9440:13)\n    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:9068:186)\n    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_react-dom_d2b193ad._.js:10230:9)\n    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/f2b25_next_dist_compiled_d3bdf90e._.js:2647:64)","state":{"adminUsersApi":{"config":{"focused":true,"invalidationBehavior":"delayed","keepUnusedDataFor":60,"middlewareRegistered":false,"online":true,"reducerPath":"adminUsersApi","refetchOnFocus":false,"refetchOnMountOrArgChange":false,"refetchOnReconnect":false},"mutations":{},"provided":{"keys":{},"tags":{}},"queries":{},"subscriptions":{}},"chat":{"activeChats":[],"messages":{}},"games":{"categories":[],"error":null,"list":[],"loading":false},"usersUi":{"modalOpen":false,"modalType":"edit","roleFilter":"all","search":"","selectedUser":null}}}
+[00:08:06.938] Browser WARN    Image with src "/Ekhalo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:08:25.728] Server  LOG     ✓ Finished filesystem cache database compaction in 14.4s
+[00:08:25.806] Server  LOG     ✓ Finished writing to filesystem cache in 12.3s
+[00:08:44.287] Server  LOG     ✓ Finished filesystem cache database compaction in 18.5s
+[00:12:49.724] Server  LOG     ✓ Compiled in 1443ms

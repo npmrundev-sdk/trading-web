@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/price/history/route": "app/api/price/history/route.js",
+  "/api/price/route": "app/api/price/route.js",
+  "/api/trade/settle/route": "app/api/trade/settle/route.js",
+  "/hot/page": "app/hot/page.js",
+  "/page": "app/page.js",
+  "/trade/page": "app/trade/page.js"
+}

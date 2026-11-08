@@ -1,0 +1,3 @@
+{
+  "/api/trade/settle/route": "app/api/trade/settle/route.js"
+}

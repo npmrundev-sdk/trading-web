@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/trading-chart/layout,_N_T_/trading-chart/page,_N_T_/trading-chart"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/trading-chart/__PAGE__",
+    "/trading-chart",
+    "/_index",
+    "/_head"
+  ]
+}

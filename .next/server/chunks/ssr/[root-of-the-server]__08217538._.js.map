@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/app/hot/page.jsx"],"sourcesContent":["import React from 'react'\n\nexport default function page() {\n  return (\n    <div>page</div>\n  )\n}\n"],"names":[],"mappings":"oVAEe,SAAS,IACtB,MACE,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,QAET,CANA,EAAA,CAAA,CAAA"}

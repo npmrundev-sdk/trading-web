@@ -1,0 +1,230 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/api/health",
+      "regex": "^/api/health(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/health(?:/)?$"
+    },
+    {
+      "page": "/api/payment/create",
+      "regex": "^/api/payment/create(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/payment/create(?:/)?$"
+    },
+    {
+      "page": "/api/price",
+      "regex": "^/api/price(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/price(?:/)?$"
+    },
+    {
+      "page": "/api/price/history",
+      "regex": "^/api/price/history(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/price/history(?:/)?$"
+    },
+    {
+      "page": "/api/trade/place",
+      "regex": "^/api/trade/place(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/trade/place(?:/)?$"
+    },
+    {
+      "page": "/api/trade/settle",
+      "regex": "^/api/trade/settle(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/trade/settle(?:/)?$"
+    },
+    {
+      "page": "/download",
+      "regex": "^/download(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/download(?:/)?$"
+    },
+    {
+      "page": "/elott",
+      "regex": "^/elott(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/elott(?:/)?$"
+    },
+    {
+      "page": "/esports",
+      "regex": "^/esports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/esports(?:/)?$"
+    },
+    {
+      "page": "/faqs",
+      "regex": "^/faqs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faqs(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/favorites",
+      "regex": "^/favorites(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favorites(?:/)?$"
+    },
+    {
+      "page": "/fish",
+      "regex": "^/fish(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/fish(?:/)?$"
+    },
+    {
+      "page": "/hot",
+      "regex": "^/hot(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/hot(?:/)?$"
+    },
+    {
+      "page": "/language",
+      "regex": "^/language(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/language(?:/)?$"
+    },
+    {
+      "page": "/live",
+      "regex": "^/live(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/live(?:/)?$"
+    },
+    {
+      "page": "/privacy",
+      "regex": "^/privacy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy(?:/)?$"
+    },
+    {
+      "page": "/promotions",
+      "regex": "^/promotions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/promotions(?:/)?$"
+    },
+    {
+      "page": "/pvp",
+      "regex": "^/pvp(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pvp(?:/)?$"
+    },
+    {
+      "page": "/slots",
+      "regex": "^/slots(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/slots(?:/)?$"
+    },
+    {
+      "page": "/sport",
+      "regex": "^/sport(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sport(?:/)?$"
+    },
+    {
+      "page": "/support",
+      "regex": "^/support(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/support(?:/)?$"
+    },
+    {
+      "page": "/terms",
+      "regex": "^/terms(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms(?:/)?$"
+    },
+    {
+      "page": "/trade",
+      "regex": "^/trade(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/trade(?:/)?$"
+    },
+    {
+      "page": "/trade/history",
+      "regex": "^/trade/history(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/trade/history(?:/)?$"
+    },
+    {
+      "page": "/trading",
+      "regex": "^/trading(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/trading(?:/)?$"
+    },
+    {
+      "page": "/trading-chart",
+      "regex": "^/trading\\-chart(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/trading\\-chart(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

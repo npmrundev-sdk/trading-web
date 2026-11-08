@@ -1,0 +1,10 @@
+{
+  "[project]/src/app/trade/components/PriceChart.jsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/app/trade/components/PriceChart.jsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules__pnpm_06dbcdc7._.js",
+      "static/chunks/src_app_trade_components_PriceChart_jsx_6552e1f0._.js",
+      "static/chunks/src_app_trade_components_PriceChart_jsx_5dacda65._.js"
+    ]
+  }
+}
